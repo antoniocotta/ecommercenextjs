@@ -5,6 +5,7 @@ import Pricetag from '@/app/components/PriceTag';
 import { cache } from 'react';
 import AddToCartButton from './AddToCartButton';
 import { incrementProductQuantity } from './actions';
+import { Metadata } from 'next';
 interface ProductPageProps {
     params: {
         id: string,
