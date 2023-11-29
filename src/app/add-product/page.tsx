@@ -4,7 +4,7 @@ import FormSubmitButton from "../components/FormSubmitButton";
 import { getServerSession} from "next-auth";
 import {authOptions} from "../api/auth/[...nextauth]/route"
 export const metadata = {
-    title: "Add Product - Customiza Aí"
+    title: "Adicionar Produtos - Customiza Aí"
 }
 
 async function addProduct(formData: FormData) {
